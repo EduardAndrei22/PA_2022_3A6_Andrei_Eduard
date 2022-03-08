@@ -12,6 +12,9 @@ public class Main {
         System.out.println(l2);
         Event l3 = new Event("L3", 30, 10, 12);
         System.out.println(l3);
+        Room myRoom1= new Room("lab",401,30);
+        Problem pb = new Problem(c1,myRoom1);
+
 
     }
 }
