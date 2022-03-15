@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Network {
+public class Network  {
     private List<Node> nodes = new ArrayList<>();
 
     public Network() {

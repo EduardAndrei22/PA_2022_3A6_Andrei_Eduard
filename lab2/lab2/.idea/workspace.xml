@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="952518e8-25b2-47f6-92ac-c878162b1271" name="Changes" comment="" />
+    <list default="true" id="952518e8-25b2-47f6-92ac-c878162b1271" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/com/company/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +125,8 @@
       <option name="presentableId" value="Default" />
       <updated>1646146315703</updated>
       <workItem from="1646146316799" duration="2634000" />
-      <workItem from="1646728487151" duration="7243000" />
+      <workItem from="1646728487151" duration="11037000" />
+      <workItem from="1647337282196" duration="59000" />
     </task>
     <servers />
   </component>

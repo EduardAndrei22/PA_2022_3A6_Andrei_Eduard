@@ -1,5 +1,6 @@
 package com.company;
 
+import javax.xml.stream.Location;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +20,13 @@ public class Main {
     myNetwork.addNode(mySecondRouter);
     Node mySecondComputer = new Computer("Computer2");
     myNetwork.addNode(mySecondComputer);
+    Node myfirstconnection = new Node("Computer1 to Router1", 10) {
+        @Override
+        public int compareTo(Location o) {
+            return 0;
+        }
+    };
+    myNetwork.addNode(myfirstconnection);
     System.out.println(myNetwork.toString());
 
     }
