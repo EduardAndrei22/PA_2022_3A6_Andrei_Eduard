@@ -8,10 +8,12 @@ public abstract class Node implements Comparable<Location> {
     private String name;
     private Map<Node, Integer> cost = new HashMap<>();
 
+
     public Node(String name, Map<Node, Integer> cost) {
         this.name = name;
         this.cost = cost;
     }
+
 
     public Node(String name) {
         this.name = name;
@@ -22,9 +24,6 @@ public abstract class Node implements Comparable<Location> {
         this.name = name;
     }
 
-    public void setCost(Map<Node, Integer> cost) {
-        this.cost = cost;
-    }
 
     public String getName() {
         return name;
@@ -51,4 +50,6 @@ public abstract class Node implements Comparable<Location> {
     public int compareTo(Node other) {
         return this.name.compareTo(other.name);
     }
+
+
 }

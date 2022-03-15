@@ -1,10 +1,13 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Network  {
     private List<Node> nodes = new ArrayList<>();
+
+
+
 
     public Network() {
         this.nodes = nodes;
@@ -26,6 +29,22 @@ public class Network  {
     public String toString() {
         return "Network{" +
                 "nodes=" + nodes +
+
                 '}';
     }
+public void sortElementIdentifiable(List<Node> nodes){
+    List<Node> ListForSort = new ArrayList<>();
+    for (int i = 0; i < nodes.size() - 1; i++)
+    {
+        boolean b = nodes.get(i) instanceof Identifiable;
+        if(b)
+            ListForSort.add(nodes.get(i));
+    }
+    List<Node> newSortedList = ListForSort.stream()
+            .sorted(Comparator.comparing(Node::getName))
+            .collect(Collectors.toList());
+    nodes.removeAll(nodes);
+    nodes.addAll( newSortedList );
+
+}
 }

@@ -10,6 +10,7 @@ public class Switch extends Node implements Identifiable{
     public String toString() {
         return "Switch{" +
                 "name='" + getName() + '\'' +
+                "cost='" + getCost() + '\'' +
                 '}';
     }
 

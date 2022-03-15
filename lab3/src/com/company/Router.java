@@ -4,12 +4,14 @@ import javax.xml.stream.Location;
 import java.util.Map;
 
 public class Router extends Node implements Identifiable{
-
+    private String address;
 
     @Override
     public String toString() {
         return "Router{" +
+                "address='" + address + '\''+
                 "name='" + getName() + '\'' +
+                "cost='" + getCost() + '\'' +
                 '}';
     }
 
