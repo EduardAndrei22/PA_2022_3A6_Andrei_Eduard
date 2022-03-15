@@ -33,14 +33,14 @@ public class Network  {
                 '}';
     }
 public void sortElementIdentifiable(List<Node> nodes){
-    List<Node> ListForSort = new ArrayList<>();
+    List<Node> listForSort = new ArrayList<>();
     for (int i = 0; i < nodes.size() - 1; i++)
     {
         boolean b = nodes.get(i) instanceof Identifiable;
         if(b)
-            ListForSort.add(nodes.get(i));
+            listForSort.add(nodes.get(i));
     }
-    List<Node> newSortedList = ListForSort.stream()
+    List<Node> newSortedList = listForSort.stream()
             .sorted(Comparator.comparing(Node::getName))
             .collect(Collectors.toList());
     nodes.removeAll(nodes);

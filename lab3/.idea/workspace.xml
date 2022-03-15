@@ -6,19 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f1487b35-c4fc-4989-8970-0be8c8c2b08f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/com/company/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/com/company/Computer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/com/company/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/com/company/Network.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/com/company/Network.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/com/company/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/com/company/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/com/company/Router.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/com/company/Router.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/com/company/Switch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/com/company/Switch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Network.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Router.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Switch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647337341818</updated>
-      <workItem from="1647337344630" duration="13680000" />
+      <workItem from="1647337344630" duration="14446000" />
     </task>
     <servers />
   </component>
