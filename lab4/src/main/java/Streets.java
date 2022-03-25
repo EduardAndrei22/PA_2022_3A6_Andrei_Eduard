@@ -5,9 +5,20 @@ public class Streets implements Comparable<Location> {
     private String name;
     private int length;
 
-    public Streets(String name, int length) {
+    public String getIntersectionOfThisStreet() {
+        return IntersectionOfThisStreet;
+    }
+
+    public void setIntersectionOfThisStreet(String intersectionOfThisStreet) {
+        IntersectionOfThisStreet = intersectionOfThisStreet;
+    }
+
+    private String IntersectionOfThisStreet;
+
+    public Streets(String name, int length, String intersectionOfThisStreet) {
         this.name = name;
         this.length = length;
+        IntersectionOfThisStreet = intersectionOfThisStreet;
     }
 
     public void setName(String name) {
@@ -31,6 +42,7 @@ public class Streets implements Comparable<Location> {
         return "Streets{" +
                 "name='" + name + '\'' +
                 ", length=" + length +
+                ", IntersectionOfThisStreet='" + IntersectionOfThisStreet + '\'' +
                 '}';
     }
 
