@@ -142,6 +142,12 @@ public class main {
 
     }
 
+
+    //Iar pentru algoritm, m-am gandit ca vom putea alege intersectia cu cele mai multe strazi, ca intersectie de pornire si o vizam
+    // dupa care vom merge pe costul minim catre urmatoarea intersectie, daca avem mai multe strazi cu acelasi cost
+    //atunci vom alege intersectia cu cele mai multe strazi la capatul carora se afla o intersectie nevizata
+    //si vom viza intersectia de pe care am plecat
+    
     private static boolean checkDuplicates(List<Intersections> intersection) {
         for (int i = 0; i < intersection.size() - 1; i++)
             for (int j = i + 1; j < intersection.size() - 1; j++)
