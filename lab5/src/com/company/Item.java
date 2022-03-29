@@ -1,15 +1,13 @@
 package com.company;
 
 import java.io.Serializable;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Item implements Serializable {
     private Integer id;
     private String name;
     private String location;
     private Integer entries=0;
-    public Item(String name, String location) {
+    public Item(String name, String location, ItemType image) {
         this.id = entries++;
         this.name = name;
         this.location = location;

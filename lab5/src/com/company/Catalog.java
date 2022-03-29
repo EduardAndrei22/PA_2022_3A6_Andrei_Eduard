@@ -35,6 +35,14 @@ public class Catalog implements Serializable {
         items.forEach(System.out::println);
     }
 
+    @Override
+    public String toString() {
+        return "Catalog{" +
+                "name='" + name + '\'' +
+                ", path='" + path + '\'' +
+                ", items=" + items +
+                '}';
+    }
 
     public Item findById(String id) {
         for (Item item : items) {

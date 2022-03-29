@@ -22,8 +22,9 @@ public class CatalogUtil {
         }
     }
     public static Catalog load(String path)
-            throws InvalidCatalogException {
+            throws InvalidCatalogException, FileNotFoundException {
         Catalog catalog = null;
+
         try {
             FileInputStream fileIn = new FileInputStream(path);
             ObjectInputStream in = new ObjectInputStream(fileIn);
@@ -36,9 +37,10 @@ public class CatalogUtil {
         return catalog;
     }
 
+
     public static void view(Item item) {
         Desktop desktop = Desktop.getDesktop();
-        //… browse or open, depending of the location type
+
     }
 
 }
