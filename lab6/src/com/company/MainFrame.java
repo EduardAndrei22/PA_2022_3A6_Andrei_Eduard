@@ -2,6 +2,8 @@ package com.company;
 
 import javax.swing.*;
 
+import static java.awt.BorderLayout.LINE_END;
+import static java.awt.BorderLayout.LINE_START;
 import static javax.swing.SwingConstants.*;
 
 public class MainFrame extends JFrame {
@@ -23,8 +25,8 @@ public class MainFrame extends JFrame {
         configPanel=new ConfigPanel(this);
 
         add(this.canvas, CENTER);
-        add(this.configPanel,NORTH);
-        add(this.controlPanel,SOUTH);
+        add(this.configPanel,LINE_START);
+        add(this.controlPanel,LINE_END);
 
 
         this.pack();
